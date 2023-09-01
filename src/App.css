@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ------------------------------------------ Variables ------------------------------------------ */
+:root {
+    --base-color: #ffb95d;
+    --base-font: 'Poppins', 'sans-serif';
+    --second-color: #ff9900;
+    --bg-color: #272727;
+    --h1-color: #ff8731;
+    --h2-color: #ff8731;
+    --h3-color: #1f1f1f;
+    --heading-color: #b1955e;
+    --p-color: #3d3b36;
+    --body-color: #3b3629;
+    --h1-size: 64px;
+    --h2-size: 44px;
+    --h3-size: 24px;
+    --p-size: 18px;
+    --transition: all .4s ease;
+
+    /* Responsive Variables */
+    --landscape-tablets: 69em;
+    --tablets: 61em;
+    --smaller-tablets: 46em;
+    --phones: 33em;
+    --smaller-phones: 23em;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, rgba(255, 166, 0, 0.032), white) ;
+}
+
+/* ------------------------------------------ Global CSS ------------------------------------------ */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    font-family: var(--base-font);
+    color: var(--body-color);
+}
+
+h1, h2, h3 {
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: var(--h1-size);
+    color: var(--h1-color);
+}
+
+h2 {
+    font-size: var(--h2-size);
+    color: var(--h2-color);
+}
+
+h3 {
+    font-size: var(--h3-size);
+    color: var(--h3-color);
+}
+
+p {
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: var(--p-size);
+    color: var(--p-color);
+}
+
+section {
+    padding: 60px 30px;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.col-2 {
+    width: 48%;
+}
+
+.col-3 {
+    width: 32%;
+}
+
+
+/* ------------------------------------------ Responsive CSS Code ------------------------------------------ */
+
+@media (max-width: 69em) {
+    .container {
+        max-width: 55em;
+        margin: 0 auto;
+    }
+    
+    .row {
+        gap: 40px 14px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .column {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col-2, .col-3 {
+        width: 100%;
+    }
+}

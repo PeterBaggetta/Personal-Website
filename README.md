@@ -1,0 +1,1 @@
+Website Portfolio that displays About Me, Skills, Projects and Contact information

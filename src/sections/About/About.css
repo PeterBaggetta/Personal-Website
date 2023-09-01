@@ -1,0 +1,14 @@
+/* ------------------------------------------ About Me ------------------------------------------ */
+.about-info {
+    border-radius: 1rem;
+    box-shadow: 0 0 2.8rem rgba(0,0,0,.15);
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 2rem;   
+    background-color: white;
+}
+
+.aboutme-important {
+    color: var(--h1-color);
+    font-weight: 500;
+}
