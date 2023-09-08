@@ -2,6 +2,7 @@
 .project-info li {
     line-height: 30px;
 }
+
 .project-image img {
     width: 110%;
     padding: 30px 15px;
@@ -27,6 +28,20 @@
 .project-button:hover {
     background-color: var(--base-color);
     color: white;
+}
+
+.project-slide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
 
 @media (max-width: 55em) {

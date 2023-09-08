@@ -14,7 +14,9 @@ export function Footer () {
                         <div class="footer-widget col-3-footer">
                             <div class="footer-text">
                                 <h3>Peter Baggetta</h3>
-                                 <p>peter.baggetta@gmail.com</p>
+                                 <p>Mailto: peter.baggetta@gmail.com</p>
+                                 <p>Tel: 1+ 416-854-5405</p>
+                                 <p>165 Camlaren Crescent, Vaughan, ON L4L 1A6 </p>
                             </div>
                         </div>
 

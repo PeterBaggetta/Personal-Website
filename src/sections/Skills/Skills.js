@@ -16,6 +16,8 @@ import NodeJS from '../../media/node_js.png';
 import Mongo from '../../media/mongodb.png';
 import SpringBoot from '../../media/Spring_Boot.png';
 import BitBucket from '../../media/bitbucket.png';
+import Cloudinary from '../../media/Cloudinary.png';
+import Cloudflare from '../../media/Cloudflare.png';
 
 // Technologies Logos
 import Git from '../../media/git.png';
@@ -110,6 +112,16 @@ export function Skills() {
                                 {/* BitBucket */}
                                 <img src={BitBucket} class="single-logo-logo" alt="BitBucket logo"/>
                                 <figcaption class="single-logo-description">BitBucket</figcaption>
+                            </figure>
+                            <figure class="single-logo">
+                                {/* Cloudinary */}
+                                <img src={Cloudinary} class="single-logo-logo" alt="Cloudinary logo"/>
+                                <figcaption class="single-logo-description">Cloudinary</figcaption>
+                            </figure>
+                            <figure class="single-logo">
+                                {/* Cloudflare */}
+                                <img src={Cloudflare} class="single-logo-logo" alt="Cloudflare logo"/>
+                                <figcaption class="single-logo-description">Cloudflare</figcaption>
                             </figure>
                         </div>              
                     </div>
