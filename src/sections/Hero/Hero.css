@@ -75,9 +75,14 @@
     }
 }
 
-@media (max-width: 40em) {    
+@media (max-width: 33em) { 
+    .herocol-2 {
+        width: 95%
+    }
+
     .hero-image img {
-        width: 60%;
+        width: 80%;
+        margin: 0 10%;
     }
 
     .hero-info h1 {
@@ -89,6 +94,19 @@
     }
 
     .hero-info p {
-        font-size: 15px;
+        font-size: 14px;
+    }
+
+    .hero-socials-list {
+        gap: 10px;
+    }
+
+
+    .social-list-item1 img {
+        width: 48%;
+    }
+
+    .social-list-item2 {
+        font-size: 11px;
     }
 }

@@ -12,3 +12,14 @@
     color: var(--h1-color);
     font-weight: 500;
 }
+
+@media (max-width: 33em) {
+    .about-info {
+        padding: 1rem;
+        width: 95%;
+    }
+
+    .about-info p {
+        font-size: 1rem;
+    }
+}

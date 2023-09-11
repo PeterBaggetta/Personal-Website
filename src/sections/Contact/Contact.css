@@ -51,3 +51,15 @@ input:before {
     background:#78788c;
     color:#fff;
 }
+
+@media (max-width: 33em) {
+    .form {
+        width: 90%;
+        margin-left: 4px;
+    }
+
+    .contact-btn {
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+}

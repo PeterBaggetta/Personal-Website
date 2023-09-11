@@ -78,3 +78,12 @@
         column-gap: 6rem;
     }
 }
+
+@media (max-width: 33em) {
+    .skill-container {
+        margin-left: 10px;
+    }
+    .single-logo-logo {
+        width: 200%;
+    }
+}

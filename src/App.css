@@ -125,3 +125,19 @@ section {
         width: 100%;
     }
 }
+
+@media (max-width: 33em) {
+    .container {
+        max-width: 22em;
+        
+    }
+    .row {
+        gap: 40px 14px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .col-2, .col-3 {
+        width: 100%;
+    }
+}
