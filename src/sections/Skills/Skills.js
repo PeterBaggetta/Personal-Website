@@ -32,138 +32,138 @@ export function Skills() {
     return (
         <>
         {/* Skills */}
-        <section class="skills" id="skills">
-            <div class="container">
+        <section className="skills" id="skills">
+            <div className="container">
                 <h2>Skills</h2>
                 
-                <div class="skill-container">
+                <div className="skill-container">
                     {/* Programming Languages */}
-                    <div class="skills-card">
-                        <h3 class="skill-heading">Programming Languages</h3>
-                        <div class="skill-items">
-                            <figure class="single-logo">
+                    <div className="skills-card">
+                        <h3 className="skill-heading">Programming Languages</h3>
+                        <div className="skill-items">
+                            <figure className="single-logo">
                                 {/* HTML */}
-                                <img src={HTML5} class="single-logo-logo" alt="HTML5 logo" />
-                                <figcaption class="single-logo-description">HTML</figcaption>
+                                <img src={HTML5} className="single-logo-logo" alt="HTML5 logo" />
+                                <figcaption className="single-logo-description">HTML</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Java */}
-                                <img src={Java} class="single-logo-logo" alt="Java logo" />
-                                <figcaption class="single-logo-description">Java</figcaption>
+                                <img src={Java} className="single-logo-logo" alt="Java logo" />
+                                <figcaption className="single-logo-description">Java</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* C */}
-                                <img src={C} class="single-logo-logo" alt="C logo"/>
-                                <figcaption class="single-logo-description">C</figcaption>
+                                <img src={C} className="single-logo-logo" alt="C logo"/>
+                                <figcaption className="single-logo-description">C</figcaption>
                             </figure> 
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* CSS */}
-                                <img src={CSS3} class="single-logo-logo" alt="CSS3 logo" />
-                                <figcaption class="single-logo-description">CSS</figcaption>
+                                <img src={CSS3} className="single-logo-logo" alt="CSS3 logo" />
+                                <figcaption className="single-logo-description">CSS</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Verilog */}
-                                <img src={Verilog} class="single-logo-logo" alt="C logo"/>
-                                <figcaption class="single-logo-description">Verilog</figcaption>
+                                <img src={Verilog} className="single-logo-logo" alt="C logo"/>
+                                <figcaption className="single-logo-description">Verilog</figcaption>
                             </figure> 
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* JavaScript */}
-                                <img src={JavaScript} class="single-logo-logo" alt="JavaScript logo" />
-                                <figcaption class="single-logo-description">JavaScript</figcaption>
+                                <img src={JavaScript} className="single-logo-logo" alt="JavaScript logo" />
+                                <figcaption className="single-logo-description">JavaScript</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Python */}
-                                <img src={Python} class="single-logo-logo" alt="Python logo" />
-                                <figcaption class="single-logo-description">Python</figcaption>
+                                <img src={Python} className="single-logo-logo" alt="Python logo" />
+                                <figcaption className="single-logo-description">Python</figcaption>
                             </figure>
                         </div>                        
                     </div>
                     
                     {/* Frameworkds & Libraries */}
-                    <div class="skills-card">
-                        <h3 class="skill-heading">Frameworks & Libraries</h3>
-                        <div class="skill-items">
-                            <figure class="single-logo">
+                    <div className="skills-card">
+                        <h3 className="skill-heading">Frameworks & Libraries</h3>
+                        <div className="skill-items">
+                            <figure className="single-logo">
                                 {/* React */}
-                                <img src={React} class="single-logo-logo" alt="React logo"/>
-                                <figcaption class="single-logo-description">React</figcaption>
+                                <img src={React} className="single-logo-logo" alt="React logo"/>
+                                <figcaption className="single-logo-description">React</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Docker */}
-                                <img src={Docker} class="single-logo-logo" alt="MongoDB logo"/>
-                                <figcaption class="single-logo-description">Docker</figcaption>
+                                <img src={Docker} className="single-logo-logo" alt="MongoDB logo"/>
+                                <figcaption className="single-logo-description">Docker</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* NodeJS */}
-                                <img src={NodeJS} class="single-logo-logo" alt="NodeJS logo"/>
-                                <figcaption class="single-logo-description">NodeJS</figcaption>
+                                <img src={NodeJS} className="single-logo-logo" alt="NodeJS logo"/>
+                                <figcaption className="single-logo-description">NodeJS</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Mongo */}
-                                <img src={Mongo} class="single-logo-logo" alt="MongoDB logo"/>
-                                <figcaption class="single-logo-description">MongoDB</figcaption>
+                                <img src={Mongo} className="single-logo-logo" alt="MongoDB logo"/>
+                                <figcaption className="single-logo-description">MongoDB</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Spring Boot */}
-                                <img src={SpringBoot} class="single-logo-logo" alt="Spring Boot logo"/>
-                                <figcaption class="single-logo-description">Spring Boot</figcaption>
+                                <img src={SpringBoot} className="single-logo-logo" alt="Spring Boot logo"/>
+                                <figcaption className="single-logo-description">Spring Boot</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* BitBucket */}
-                                <img src={BitBucket} class="single-logo-logo" alt="BitBucket logo"/>
-                                <figcaption class="single-logo-description">BitBucket</figcaption>
+                                <img src={BitBucket} className="single-logo-logo" alt="BitBucket logo"/>
+                                <figcaption className="single-logo-description">BitBucket</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Cloudinary */}
-                                <img src={Cloudinary} class="single-logo-logo" alt="Cloudinary logo"/>
-                                <figcaption class="single-logo-description">Cloudinary</figcaption>
+                                <img src={Cloudinary} className="single-logo-logo" alt="Cloudinary logo"/>
+                                <figcaption className="single-logo-description">Cloudinary</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Cloudflare */}
-                                <img src={Cloudflare} class="single-logo-logo" alt="Cloudflare logo"/>
-                                <figcaption class="single-logo-description">Cloudflare</figcaption>
+                                <img src={Cloudflare} className="single-logo-logo" alt="Cloudflare logo"/>
+                                <figcaption className="single-logo-description">Cloudflare</figcaption>
                             </figure>
                         </div>              
                     </div>
                     
                     {/* Terchnologies */}
-                    <div class="skills-card">
-                        <h3 class="skill-heading">Technologies</h3>
-                        <div class="skill-items">
-                            <figure class="single-logo">
+                    <div className="skills-card">
+                        <h3 className="skill-heading">Technologies</h3>
+                        <div className="skill-items">
+                            <figure className="single-logo">
                                 {/* Git */}
-                                <img src={Git} class="single-logo-logo" alt="Git logo"/>
-                                <figcaption class="single-logo-description">Git</figcaption>
+                                <img src={Git} className="single-logo-logo" alt="Git logo"/>
+                                <figcaption className="single-logo-description">Git</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* VSCode */}
-                                <img src={VsCode} class="single-logo-logo" alt="VsCode logo"/>
-                                <figcaption class="single-logo-description">VSCode</figcaption>
+                                <img src={VsCode} className="single-logo-logo" alt="VsCode logo"/>
+                                <figcaption className="single-logo-description">VSCode</figcaption>
                             </figure> 
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Spyder */}
-                                <img src={Spyder} class="single-logo-logo" alt="Spyder logo"/>
-                                <figcaption class="single-logo-description">Spyder</figcaption>
+                                <img src={Spyder} className="single-logo-logo" alt="Spyder logo"/>
+                                <figcaption className="single-logo-description">Spyder</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Postman */}
-                                <img src={Postman} class="single-logo-logo" alt="Postman logo"/>
-                                <figcaption class="single-logo-description">Postman</figcaption>
+                                <img src={Postman} className="single-logo-logo" alt="Postman logo"/>
+                                <figcaption className="single-logo-description">Postman</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Linux */}
-                                <img src={Linux} class="single-logo-logo" alt="Linux logo"/>
-                                <figcaption class="single-logo-description">Linux</figcaption>
+                                <img src={Linux} className="single-logo-logo" alt="Linux logo"/>
+                                <figcaption className="single-logo-description">Linux</figcaption>
                             </figure> 
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Apple */}
-                                <img src={Apple} class="single-logo-logo" alt="Apple logo"/>
-                                <figcaption class="single-logo-description">Apple</figcaption>
+                                <img src={Apple} className="single-logo-logo" alt="Apple logo"/>
+                                <figcaption className="single-logo-description">Apple</figcaption>
                             </figure>
-                            <figure class="single-logo">
+                            <figure className="single-logo">
                                 {/* Windows */}
-                                <img src={Windows} class="single-logo-logo" alt="Windows logo"/>
-                                <figcaption class="single-logo-description">Windows</figcaption>
+                                <img src={Windows} className="single-logo-logo" alt="Windows logo"/>
+                                <figcaption className="single-logo-description">Windows</figcaption>
                             </figure>    
                         </div>                                             
                     </div>

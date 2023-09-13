@@ -69,11 +69,11 @@ export function Projects () {
         <>
             <section className='projects' id="projects">
 
-                <div class="container">
+                <div className="container">
                     <h2>Projects</h2>
                     {/* Project 1 */}
-                    <div class="row">
-                        <div class="project-info col-2">
+                    <div className="row">
+                        <div className="project-info col-2">
                             <h3>AES Encryption Coprocessor</h3>
                             <ul>
                                 <li> &#8226; Implemented an AES coprocessor on a DE1-Soc development board.</li>
@@ -83,12 +83,12 @@ export function Projects () {
                             </ul>
                             <h4>Technologies Used:</h4>
                             {/* C */}
-                            <img src={C} class="project-tech-img" alt="C logo"/>
+                            <img src={C} className="project-tech-img" alt="C logo"/>
                             {/* Git */}
-                            <img src={Git} class="project-tech-img" alt="Git logo"/>
+                            <img src={Git} className="project-tech-img" alt="Git logo"/>
                             {/* Verilog */}
-                            <img src={Verilog} class="project-tech-img" alt="Verilog logo"/>
-                            <a href="https://github.com/PeterBaggetta/AES-Encryption-Coprocessor-in-CBC-Mode/tree/main" target="_blank" class="project-button" rel="noreferrer">GitHub Repo</a>                         
+                            <img src={Verilog} className="project-tech-img" alt="Verilog logo"/>
+                            <a href="https://github.com/PeterBaggetta/AES-Encryption-Coprocessor-in-CBC-Mode/tree/main" target="_blank" className="project-button" rel="noreferrer">GitHub Repo</a>                         
                         </div>
 
                         <ImageGallery items = {project1} />
@@ -98,8 +98,8 @@ export function Projects () {
 
 
                     {/* Project 2 */}
-                    <div class="row">
-                        <div class="project-info col-2">
+                    <div className="row">
+                        <div className="project-info col-2">
                             <h3>Password Manager with Encryption</h3>
                             <ul>
                                 <li> &#8226; This is a password manager with built in encrytion coded in Python.</li>
@@ -108,19 +108,19 @@ export function Projects () {
                             </ul>
                             <h4>Technologies Used:</h4>
                             {/* Python */}
-                            <img src={Python} class="project-tech-img" alt="Python logo"/>
+                            <img src={Python} className="project-tech-img" alt="Python logo"/>
                             {/* Git */}
-                            <img src={Git} class="project-tech-img" alt="Git logo"/>
-                            <a href="https://github.com/PeterBaggetta/Password-Manager-with-Encryption-in-Python" target="_blank" class="project-button" rel="noreferrer">GitHub Repo</a>
+                            <img src={Git} className="project-tech-img" alt="Git logo"/>
+                            <a href="https://github.com/PeterBaggetta/Password-Manager-with-Encryption-in-Python" target="_blank" className="project-button" rel="noreferrer">GitHub Repo</a>
                         </div>
 
                         <ImageGallery items = {project2} />
                     </div>
 
-                    <div class="row">
+                    <div className="row">
                         
                         {/* Project 3 */}
-                        <div class="project-info col-2">
+                        <div className="project-info col-2">
                             <h3>Auto-Encoder</h3>
                             <ul>
                                 <li> &#8226; This project was implemented to compare the performance difference between the two coding languages.</li>
@@ -130,12 +130,12 @@ export function Projects () {
                             </ul>
                             <h4>Technologies Used:</h4>
                             {/* Python */}
-                            <img src={Python} class="project-tech-img" alt="Python logo"/>
+                            <img src={Python} className="project-tech-img" alt="Python logo"/>
                             {/* C */}
-                            <img src={C} class="project-tech-img" alt="C logo"/>
+                            <img src={C} className="project-tech-img" alt="C logo"/>
                             {/* Git */}
-                            <img src={Git} class="project-tech-img" alt="Git logo"/>
-                            <a href="https://github.com/PeterBaggetta/Autoencoder" target="_blank" class="project-button" rel="noreferrer">GitHub Repo</a>
+                            <img src={Git} className="project-tech-img" alt="Git logo"/>
+                            <a href="https://github.com/PeterBaggetta/Autoencoder" target="_blank" className="project-button" rel="noreferrer">GitHub Repo</a>
 
                         </div>
                         
