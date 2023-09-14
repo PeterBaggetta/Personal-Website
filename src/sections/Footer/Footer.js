@@ -16,7 +16,6 @@ export function Footer () {
                                 <h3>Peter Baggetta</h3>
                                  <p>Mailto: peter.baggetta@gmail.com</p>
                                  <p>Tel: 1+ 416-854-5405</p>
-                                 <p>165 Camlaren Crescent, Vaughan, ON L4L 1A6 </p>
                             </div>
                         </div>
 
