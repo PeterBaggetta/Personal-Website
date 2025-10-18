@@ -9,8 +9,8 @@ export function About() {
                         <h2>About Me</h2>
                         <div className="about-info">    
                             <p>
-                                I’m a <span className="aboutme-important">Computer Engineering</span> graduate from the 
-                                <span className="aboutme-important">University of Guelph</span> who loves turning complex 
+                                I’m a <span className="aboutme-important">Computer Engineering</span> graduate from the
+                                <span className="aboutme-important"> University of Guelph</span> who loves turning complex 
                                 problems into elegant, reliable solutions. My background blends full-stack software development, 
                                 hardware design, networking, and systems analysis — giving me the versatility to work across the 
                                 stack and bridge the gap between ideas and execution.
