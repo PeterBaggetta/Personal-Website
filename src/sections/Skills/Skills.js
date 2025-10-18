@@ -4,6 +4,7 @@ import './Skills.css';
 import HTML5 from '../../media/html5.png';
 import Java from '../../media/java.png';
 import C from '../../media/C.png';
+import CSharp from '../../media/CSharp.png';
 import CSS3 from '../../media/css3.png';
 import Verilog from '../../media/systemverilog.png';
 import JavaScript from '../../media/javascript.png';
@@ -56,6 +57,11 @@ export function Skills() {
                                 <img src={C} className="single-logo-logo" alt="C logo"/>
                                 <figcaption className="single-logo-description">C</figcaption>
                             </figure> 
+                            <figure className="single-logo">
+                                {/* C# */}
+                                <img src={CSharp} className="single-logo-logo" alt="C# logo"/>
+                                <figcaption className="single-logo-description">C#</figcaption>
+                            </figure>
                             <figure className="single-logo">
                                 {/* CSS */}
                                 <img src={CSS3} className="single-logo-logo" alt="CSS3 logo" />

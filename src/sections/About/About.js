@@ -18,17 +18,20 @@ export function About() {
                                 <br />
                                 <br />
                                 
-                                I’ve built secure enterprise architectures, developed automation tools that save teams hours of work, 
-                                and delivered full-stack applications using Python, Java, JavaScript, React, Spring Boot, Docker, Kubernetes, 
-                                AWS, and Microsoft Azure. I enjoy collaborating with diverse teams, learning from different perspectives, and 
-                                finding innovative ways to make systems faster, safer, and more efficient.
+                                I work across the stack - APIs, data pipelines, infrastructure-as-code, and 
+                                modern web applications, always with an eye on performance, security and developer experience. I enjoy 
+                                collaborating with diverse teams, learning from different perspectives, and finding innovative ways to make 
+                                systems faster, safer, and more efficient.
 
                                 <br />
                                 <br />
                                 
-                                Currently pursuing my P.Eng designation, I’m motivated by projects that combine technical challenge with real-world impact. 
-                                Whether it’s streamlining workflows, improving reliability, or experimenting with emerging technologies, I’m always looking 
-                                for ways to push my skills further — and have fun along the way.
+                                Recent work includes:
+                                <ul>
+                                    <li> &#8226; Automating cloud workflows and CI/CD to reduce deploy friction.</li>
+                                    <li> &#8226; Designing resilient services with clean interfaces and strong observability</li>
+                                    <li> &#8226; Shipping modern web frontends with React/Next.js and accessible UI patterns</li>
+                                </ul>
 
                             </p> 
                         </div>

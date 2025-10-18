@@ -15,8 +15,8 @@ export function Hero() {
                         <div className="hero-info herocol-2">
                             <h3>Hi there, I'm</h3>
                             <h1>Peter Baggetta</h1>
-                            <h3>Computer Engineering Graduate</h3>
-                            <p>Currently working at Bell Canada as a Specialist, Techincal Network Architect while striving for greatness by solving one engineering problem at a time!</p>                       
+                            <h3>Engineer, Builder & Network Architect</h3>
+                            <p>I design and build reliable systems and software. From backend services to frontend UX, I ship clean code and practical solutions, while striving for greatness by solving one engineering problem at a time!</p>                       
                             
                             {/* Buttons on Hero */}
                             <div className="cta">
