@@ -22,7 +22,7 @@ export function Header () {
     return (
         <>
             <header ref={headerRef} className={headerClasses}>
-                <a href='#' className='brand' onClick={() => setMobileNavOpen(false)}>Peter Baggetta</a>
+                <a href='#Hero' className='brand' onClick={() => setMobileNavOpen(false)}>Peter Baggetta</a>
 
                 <Navbar mobileNavOpen={mobileNavOpen} setMobileNavOpen={setMobileNavOpen}/>
                 <div className='mobile-nav-circle'></div>
